@@ -1,0 +1,15 @@
+vim.g.mapleader = " "
+local keymap = vim.keymap
+keymap.set("i", "jk", "<Esc>")
+keymap.set("n", "<Leader>nh", ":nohlsearch<CR>")
+keymap.set("n", "<Leader>sv", "<C-w>v")
+keymap.set("n", "<Leader>sh", "<C-w>s")
+keymap.set("n", "<Leader>s=", "<C-w>=")
+keymap.set("n", "<Leader>sc", ":close<CR>")
+keymap.set("n", "<Leader>to", ":tabnew<CR>")
+keymap.set("n", "<Leader>tc", ":tabclose<CR>")
+keymap.set("n", "<Leader>tn", ":tabnext<CR>")
+keymap.set("n", "<Leader>tp", ":tabprevious<CR>")
+keymap.set("n", "<Leader>wm", ":MaximizerToggle<CR>")
+keymap.set("n", "<Leader>e", ":NvimTreeToggle<CR>")
+keymap.set("n", "<Leader>qa", ":qall!<CR>")
